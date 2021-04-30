@@ -1,0 +1,91 @@
+* {
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#header {
+    height : 100vh;
+    width: 100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+
+}
+
+#search-bar {
+    width: 600px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    font-size: 17px;
+    padding-left: 13px;
+    outline: none;
+    opacity: 80%;
+    margin-top: 15px;
+  
+}
+#search-form {
+    text-align: center;
+}
+#photo-divs {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photo-div{
+    margin: 20px;
+    
+    
+}
+
+
+.head-text {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 140px;
+    font-weight: bold;
+}
+.cite {
+    color:white;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.cite-search {
+    color:white;
+    text-align: end;
+    margin-right: 10px;
+    margin-top: 180px;
+}
+
+.a-white {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+.a-white:visited{
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+a {
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
+.logo {
+    width: auto;
+    height: 30px;  
+    margin: 10px;
+  
+}
